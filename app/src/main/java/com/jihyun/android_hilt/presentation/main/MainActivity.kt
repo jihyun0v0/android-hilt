@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        viewModel.getUser()
         setContentView(binding.root)
     }
 }
